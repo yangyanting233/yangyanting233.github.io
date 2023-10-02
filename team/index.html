@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
+
+    <!--css-->
+    <link rel="stylesheet" href="/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style type="text/css">
+        .ulfont {
+            font-size: 18px;
+        }
+    </style>
+
+    <title>DeepStream-MRI</title>
+</head>
+
+<body class="bg-dark">
+    <header class="sticky-top">
+        <!--nav bar-->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="--bs-bg-opacity: 0.95">
+            <div class="container-fluid">
+                <a class="px-2" href="/"><img alt="logo" src="/logo.png" style="width: 40px; height: 40px" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/#info">Info/Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/facility">Facility</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/publication">Publication</a>
+                        </li>
+                        <p></p>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="py-3 mx-md-3 bg-light border-radius-2">
+            <h1 class="display-4 fw-normal border-bottom-dash text-center">Team</h1>
+
+            <div class="py-3 px-md-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Degree</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Contribution</th>
+                                <th scope="col">Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            <tr>
+                                <th scope="row"><a href="#anish" class="text-reset text-decoration-none">Anish
+                                        Puligilla</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>Group-Level Image Registration</td>
+                                <td>ap4168@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#chen" class="text-reset text-decoration-none">Chen Liu</a>
+                                </th>
+                                <td>M.S.</td>
+                                <td>Alumnus</td>
+                                <td>JET v1.0, AI-CBV mapping from T1-weighted MRI</td>
+                                <td>cl3760@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#chenghao" class="text-reset text-decoration-none">Chenghao
+                                        Zhang</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>Medical image registration and age-specific template generation</td>
+                                <td>cz2639@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#christopher"
+                                        class="text-reset text-decoration-none">Christopher Wu</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td></td>
+                                <td>cw3360@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#david" class="text-reset text-decoration-none">David Ma</a>
+                                </th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>JET v1.0, JET v2.0</td>
+                                <td>djm2249@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#emily" class="text-reset text-decoration-none">Emily R.
+                                        Tortora</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td></td>
+                                <td>et2724@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#george" class="text-reset text-decoration-none">George
+                                        Kenefati</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>MDD Prediction from sMRI</td>
+                                <td>georgekenefati98@gmail.com</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#grant" class="text-reset text-decoration-none">Grant D.
+                                        Gaebler</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>Deep learning tools</td>
+                                <td>gdg2130@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#haojin" class="text-reset text-decoration-none">Haojin Wu</a>
+                                </th>
+                                <td>M.S.</td>
+                                <td>Web Engineer</td>
+                                <td>VBA analysis, Web Design</td>
+                                <td>hw2846@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#haoran" class="text-reset text-decoration-none">Haoran Sun</a>
+                                </th>
+                                <td>B.S.</td>
+                                <td>Alumnus</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#jie" class="text-reset text-decoration-none">Jie Shi</a></th>
+                                <td>M.S.</td>
+                                <td>Alumnus</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#joanne" class="text-reset text-decoration-none">Joanne Lee</a>
+                                </th>
+                                <td>M.S.</td>
+                                <td>Alumnus</td>
+                                <td></td>
+                                <td>pl2744@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#junhao" class="text-reset text-decoration-none">Junhao
+                                        Zhang</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>Predicting schizophrenia with deep learning</td>
+                                <td>jz3168@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#kejia" class="text-reset text-decoration-none">Kejia Liu</a>
+                                </th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td></td>
+                                <td>kl3291@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#mikhail" class="text-reset text-decoration-none">Mikhail
+                                        Morgan</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td></td>
+                                <td>mm5947@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#nanyan" class="text-reset text-decoration-none">Nanyan Zhu</a>
+                                </th>
+                                <td>M.A.</td>
+                                <td>Alumnus</td>
+                                <td></td>
+                                <td>nz2305@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#natalia" class="text-reset text-decoration-none">Natalia
+                                        Harguindeguy</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>Deep Learning for dual energy CT scans</td>
+                                <td>nh2708@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#sabrina" class="text-reset text-decoration-none">Sabrina</a>
+                                </th>
+                                <td>B.S.</td>
+                                <td>Developer</td>
+                                <td>Statistical analysis</td>
+                                <td>sg3459@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#vish" class="text-reset text-decoration-none">Vish</a></th>
+                                <td>B.A.</td>
+                                <td>Developer</td>
+                                <td>TABS - Bias field correction, BET and PVE</td>
+                                <td>vmr2132@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#xuemin" class="text-reset text-decoration-none">Xuemin Zhu</a>
+                                </th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>Predicting brain age with MRI using deep learning</td>
+                                <td>xueminzhu1211@gmail.com</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#yanting" class="text-reset text-decoration-none">Yanting
+                                        Yang</a></th>
+                                <td>M.S.</td>
+                                <td>Web Engineer</td>
+                                <td>Web Design</td>
+                                <td>yy3189@233yeee.com</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#ye" class="text-reset text-decoration-none">Ye Tian</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>MRS_DL_LCM</td>
+                                <td>yt2793@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#zhonghui" class="text-reset text-decoration-none">Zhonghui
+                                        Qie</a></th>
+                                <td></td>
+                                <td>Developer</td>
+                                <td>Experiments about MRI and MRS</td>
+                                <td>zq2213@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#zhuoyao" class="text-reset text-decoration-none">Zhuoyao
+                                        Xin</a></th>
+                                <td>M.S.</td>
+                                <td>Developer</td>
+                                <td>Motion Correction of MRI</td>
+                                <td>zx2369@columbia.edu</td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row"><a href="#zihan" class="text-reset text-decoration-none">Zihan Wan</a>
+                                </th>
+                                <td>M.S.</td>
+                                <td>Alumnus</td>
+                                <td>Super-resolution reconstruction, Motion Correction</td>
+                                <td>zw2718@columbia.edu</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mx-md-1 my-5">
+            <!--Chen Liu-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="chen" style="top: -56px"></a>
+                </div>
+                <div class="row w-100 py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./Chen Liu.jpeg"
+                            class="img-fluid rounded-pill" alt="Chen Liu" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">Chen Liu</span><br />
+                            <span>M.S. in Electrical Engineering at Columbia University</span><br />
+                            <span>Ph.D. student in Computer Science at Yale University</span><br />
+                            <span>Senior Data Scientist at GE Healthcare </span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    <ul class="ps-3">
+                                        <li>Contrastive learning.</li>
+                                        <li>Generative models and adversarial learning.</li>
+                                        <li>Deep learning in healthcare.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Homeage</div>
+                                    <a target="_blank"
+                                        href="https://www.chenliu1996.com/">https://www.chenliu1996.com/</a>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/chen-raphael-liu/">https://www.linkedin.com/in/chen-raphael-liu/</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!--George Kenefati-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="george" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./George Kenefati.jpeg"
+                            class="img-fluid rounded-pill" alt="George Kenefati" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">George Kenefati</span><br />
+                            <span>M.S. in Biomedical Engineering at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    MDD Prediction from sMRI.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Application of ML and DL in elctrophysiology data for brain state decoding.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/george-kenefati">https://www.linkedin.com/in/george-kenefati</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!--Natalia Harguindeguy-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="natalia" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./Natalia Harguindeguy.png"
+                            class="img-fluid rounded-pill" alt="Natalia Harguindeguy" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">Natalia Harguindeguy</span><br />
+                            <span>M.S. in Biomedical Engineering at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    Deep Learning for dual energy computed tomography to predict PBV.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Computational methods for medical images and medical signals. Machine Learning. Deep
+                                    Learning.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://linkedin.com/in/natalia-harguindeguy/">https://linkedin.com/in/natalia-harguindeguy/</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!--Xuemin Zhu-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="xuemin" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./Xuemin Zhu.webp"
+                            class="img-fluid rounded-pill" alt="Xuemin Zhu" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">Xuemin Zhu</span><br />
+                            <span>Staff Associate at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    Predicting Brain Age using Deep Learning Method.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Applying computational methods to medical images, including MRI and CT scans.
+                                </div>
+                            </li>
+                            <!-- <li class="list-group-item d-flex">
+                      <div class="ms-2 me-auto">
+                        <div class="fw-bold">Homepage</div>
+                        <a target="_blank" href="https://www.xueminzhu.com/">https://www.xueminzhu.com/</a>
+                      </div>
+                    </li> -->
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/xuemin-zhu-3931911a7">https://www.linkedin.com/in/xuemin-zhu-3931911a7</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!--Yanting Yang-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="yanting" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./Yanting Yang.png"
+                            class="img-fluid rounded-pill" alt="Yanting Yang" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">Yanting Yang</span><br />
+                            <span>M.S. in Biomedical Engineering at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    DeepStream-MRI.com Web design.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Deep learning in MRI image denoise and segmentation.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/yanting-yang-6b1516218">https://www.linkedin.com/in/yanting-yang-6b1516218</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!--Ye Tian-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="ye" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./Ye Tian.jpg"
+                            class="img-fluid rounded-pill" alt="Ye Tian" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">Ye Tian</span><br />
+                            <span>M.S. in Biomedical Engineering at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    <ul class="ps-3">
+                                        <li>Classification of Schizophrenia with Structural MRI Using 3D-MIGR
+                                            Transformer.</li>
+                                        <li>MRS_DL_LCM(Ongoing).</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Deep learning, Medical Image Processing, Magnetic Resonance Imaging.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/yetian1997/">https://www.linkedin.com/in/yetian1997/</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!--David Ma-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="david" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./David Ma.jpeg"
+                            class="img-fluid rounded-pill" alt="David Ma" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">David Ma</span><br />
+                            <span>M.S. in Biomedical Engineering at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    MDD Prediction from sMRI.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Application of ML and DL in elctrophysiology data for brain state decoding.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/david-jingm">https://www.linkedin.com/in/david-jingm</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!--Haojin Wu-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="haojin" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./Haojin Wu.jpg"
+                            class="img-fluid rounded-pill" alt="Haojin Wu" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">Haojin Wu</span><br />
+                            <span>M.S. in Biomedical Engineering at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    Deep Learning Identifies Neuroimaging Signatures of Hippocampal Contrast Enhancement
+                                    in Cognitively Normal APOE4 Carriers.
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Magnetic Resonance Imaging, Web Design
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="https://www.linkedin.com/in/haojinwu">https://www.linkedin.com/in/haojinwu</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!--Chenghao Zhang-->
+            <div class="col-md-6 d-flex">
+                <div class="position-relative">
+                    <a class="position-absolute" id="chenghao" style="top: -56px"></a>
+                </div>
+                <div class="row py-3 px-md-3 mx-0 mb-3 bg-light border-radius-2">
+                    <div class="col-6 col-md-3 d-flex align-items-center">
+                        <img src="./Chenghao.jpeg"
+                            class="img-fluid rounded-pill" alt="Chenghao" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="ps-3 pt-3 ps-md-0 pt-md-0">
+                            <span class="lead fw-bold">Chenghao Zhang</span><br />
+                            <span>M.S. in Biomedical Engineering at Columbia University</span>
+                        </div>
+                        <ol class="list-group list-group-flush list-group-numbered my-3">
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Projects</div>
+                                    <ul class="ps-3">
+                                        <li>Cycle Inverse Consistent Deformable Medical Image Registration with
+                                            Transfomer.</li>
+                                        <li>Constructing age-specific MRI brain templates based on a uniform healthy
+                                            population across life span with Transformer.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Research Interest</div>
+                                    Medical imaging, Deep Learning
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Linkedin</div>
+                                    <a target="_blank"
+                                        href="www.linkedin.com/in/chzhang1821">https://www.linkedin.com/in/chzhang1821</a>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <h5 class="text-secondary">Pages</h5>
+                <ul class="list-unstyled">
+                    <li><a class="link-secondary" href="/#info">Info/Github</a></li>
+                    <li><a class="link-secondary" href="/team">Team</a></li>
+                    <li><a class="link-secondary" href="/facility">Facility</a></li>
+                    <li><a class="link-secondary" href="/publication">Publication</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-12">
+            <span>Logo</span>
+            <small class="d-block mb-3 text-muted">© 2022-2023</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
